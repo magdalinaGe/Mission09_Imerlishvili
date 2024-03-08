@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(33.3333% - 32px); /* Adjust width based on your design */
+  box-sizing: border-box;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px; /* Add padding for better spacing */
+}
