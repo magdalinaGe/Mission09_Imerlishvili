@@ -53,3 +53,42 @@
   justify-content: space-between;
   padding: 16px; /* Add padding for better spacing */
 }
+
+/* App BACKGROUND*/
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(
+    171,
+    217,
+    239
+  ); /* Add a background color for debugging */
+  -webkit-animation: AnimateBG 10s ease infinite;
+  animation: AnimateBG 15s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-color: rgb(170, 239, 188);
+  }
+  50% {
+    background-color: rgb(183, 218, 235);
+  }
+  100% {
+    background-color: rgb(228, 255, 188);
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-color: rgb(255, 185, 229);
+  }
+  50% {
+    background-color: rgb(111, 188, 221);
+  }
+  100% {
+    background-color: rgb(189, 189, 255);
+  }
+}
+
+/* Pretty Header */

@@ -47,8 +47,10 @@ function Welcome() {
 }
 function App() {
   return (
-    <div className="App">
-      <Welcome />
+    <div className="bg">
+      <div className="App">
+        <Welcome />
+      </div>
       <TeamList />
     </div>
   );
